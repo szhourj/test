@@ -1,0 +1,43 @@
+apyi800-考试课程编号资料维护作业
+添加EXCEL导入功能
+
+apyi810-年度教育培训计划维护作业
+添加EXCEL导入功能
+
+cpyi810-年度教育培训计划维护作业
+添加EXCEL导入功能
+
+cpyr512 - 就餐统计报表(加班小于2小时早晚餐就餐)
+->cpyr513 汇总cpyr512 自上月24 ～ 本月23的异常之就餐金额
+
+
+1 apyr800-》cpyr800
+  在
+  cpyr801 年度教育培训编列使用及计划达成表(部门+课程)
+
+2 apyt510->cpyr514  迟到/早退统计
+  OK 2015-04-02
+3 汇总统计报表
+
+4 aapp115 入库暂估 生成的 部门编号取自请购单单头中部门，应修改为取自采购单单身之部门
+5 apmt111 批号怎么可以不录入而KEY单呢  
+6 s_getbug1.4gl 预算逻辑上似乎有问题
+7 cpyr109_cpyt104 在请假单在撤消审核单据时会发生 欠班信息冗余 tc_cqhb_file   
+
+8 cxmr731 出货放行单（自由打印，并不取自出货单）
+ OK 2015-04-13
+
+
+9 web 储位维护移转到ERP中
+10 教育训练总表
+
+
+     sr2 dynamic array of record #20150409
+         ogb04     LIKE ogb_file.ogb04,#产品编号
+         ogb06     LIKE ogb_file.ogb06,#品名规格
+         ogb09     LIKE ogb_file.ogb09,#出货仓库编号
+         ogb091     LIKE ogb_file.ogb091,#出货库位编号
+        #oga02     LIKE oga_file.oga02,
+         oga04     LIKE type_file.chr100,#送货客户编号
+         ogb12     LIKE ogb_file.ogb12   #实际出货数量
+     end record                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            /
