@@ -1,0 +1,88 @@
+04-18 09:19:42.489      572-572/com.example.administrator.activity_04 D/dalvikvm©s Not late-enabling CheckJNI (already on)
+
+04-18 09:19:43.369      572-572/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onCreate
+04-18 09:19:43.479      572-572/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onStart
+04-18 09:19:43.479      572-572/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onResume
+
+04-18 09:19:43.549      572-577/com.example.administrator.activity_04 I/dalvikvm©s threadid=3: reacting to signal 3
+04-18 09:19:43.609      572-577/com.example.administrator.activity_04 I/dalvikvm©s Wrote stack traces to '/data/anr/traces.txt'
+04-18 09:19:43.849      572-572/com.example.administrator.activity_04 D/gralloc_goldfish©s Emulator without GPU emulation detected.
+04-18 09:19:44.019      572-577/com.example.administrator.activity_04 I/dalvikvm©s threadid=3: reacting to signal 3
+04-18 09:19:44.099      572-577/com.example.administrator.activity_04 I/dalvikvm©s Wrote stack traces to '/data/anr/traces.txt'
+04-18 09:20:08.189      621-626/com.example.administrator.activity_04 I/dalvikvm©s threadid=3: reacting to signal 3
+04-18 09:20:08.729      621-626/com.example.administrator.activity_04 E/dalvikvm©s Unable to open stack trace file '/data/anr/traces.txt': Permission denied
+04-18 09:20:08.759      621-626/com.example.administrator.activity_04 I/dalvikvm©s threadid=3: reacting to signal 3
+04-18 09:20:08.909      621-626/com.example.administrator.activity_04 I/dalvikvm©s Wrote stack traces to '/data/anr/traces.txt'
+04-18 09:20:09.109      621-626/com.example.administrator.activity_04 I/dalvikvm©s threadid=3: reacting to signal 3
+04-18 09:20:09.169      621-626/com.example.administrator.activity_04 I/dalvikvm©s Wrote stack traces to '/data/anr/traces.txt'
+
+04-18 09:20:09.290      621-621/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onCreate
+04-18 09:20:09.419      621-621/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onStart
+04-18 09:20:09.419      621-621/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onResume
+
+04-18 09:20:09.659      621-626/com.example.administrator.activity_04 I/dalvikvm©s threadid=3: reacting to signal 3
+04-18 09:20:09.759      621-626/com.example.administrator.activity_04 I/dalvikvm©s Wrote stack traces to '/data/anr/traces.txt'
+04-18 09:20:09.819      621-621/com.example.administrator.activity_04 D/gralloc_goldfish©s Emulator without GPU emulation detected.
+04-18 09:20:29.800      654-659/com.example.administrator.activity_04 I/dalvikvm©s threadid=3: reacting to signal 3
+04-18 09:20:30.100      654-659/com.example.administrator.activity_04 I/dalvikvm©s Wrote stack traces to '/data/anr/traces.txt'
+04-18 09:20:30.270      654-659/com.example.administrator.activity_04 I/dalvikvm©s threadid=3: reacting to signal 3
+04-18 09:20:30.340      654-659/com.example.administrator.activity_04 I/dalvikvm©s Wrote stack traces to '/data/anr/traces.txt'
+
+
+
+
+
+
+
+
+########################## 1 firstActivityÆô¶¯
+04-18 09:20:30.500      654-654/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onCreate
+04-18 09:20:30.651      654-654/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onStart
+04-18 09:20:30.651      654-654/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onResume
+
+04-18 09:20:30.780      654-659/com.example.administrator.activity_04 I/dalvikvm©s threadid=3: reacting to signal 3
+04-18 09:20:30.890      654-659/com.example.administrator.activity_04 I/dalvikvm©s Wrote stack traces to '/data/anr/traces.txt'
+04-18 09:20:31.050      654-654/com.example.administrator.activity_04 D/gralloc_goldfish©s Emulator without GPU emulation detected.
+
+########################## 2 secondActivityÆô¶¯
+04-18 09:21:33.559      654-654/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onPause
+
+04-18 09:21:33.629      654-654/com.example.administrator.activity_04 I/System.out©s secondActivity ---> onCreate
+04-18 09:21:33.659      654-654/com.example.administrator.activity_04 I/System.out©s secondActivity ---> onStart
+04-18 09:21:33.659      654-654/com.example.administrator.activity_04 I/System.out©s secondActivity ---> onResume
+
+04-18 09:21:34.189      654-654/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onStop
+
+########################## 3 ·µ»ØfirstActivity
+04-18 09:22:49.899      654-654/com.example.administrator.activity_04 I/System.out©s secondActivity ---> onPause
+04-18 09:22:49.949      654-654/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onRestart
+04-18 09:22:49.959      654-654/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onStart
+04-18 09:22:49.959      654-654/com.example.administrator.activity_04 I/System.out©s firstActivity ---> onResume
+04-18 09:22:50.420      654-654/com.example.administrator.activity_04 I/System.out©s secondActivity ---> onStop
+04-18 09:22:50.420      654-654/com.example.administrator.activity_04 I/System.out©s secondActivity ---> onDestroy
+
+
+
+
+#####################################################################################################################################
+###### Dialog Activity 
+
+####### 1
+04-18 10:40:32.227      559-559/com.example.administrator.activity_05 I/System.out©s firstActivity ---> onCreate
+04-18 10:40:32.507      559-559/com.example.administrator.activity_05 I/System.out©s firstActivity ---> onStart
+04-18 10:40:32.517      559-559/com.example.administrator.activity_05 I/System.out©s firstActivity ---> onResume
+
+###### 2
+04-18 10:59:20.498      571-571/com.example.administrator.activity_05 I/System.out©s firstActivity ---> onPause
+04-18 10:59:20.568      571-571/com.example.administrator.activity_05 I/System.out©s secondActivity ---> onCreate
+04-18 10:59:20.628      571-571/com.example.administrator.activity_05 I/System.out©s secondActivity ---> onStart
+04-18 10:59:20.628      571-571/com.example.administrator.activity_05 I/System.out©s secondActivity ---> onResume
+
+
+##### 3
+04-18 11:09:59.618      571-571/com.example.administrator.activity_05 I/System.out©s secondActivity ---> onPause
+04-18 11:09:59.819      571-571/com.example.administrator.activity_05 I/System.out©s firstActivity ---> onResume
+04-18 11:09:59.998      571-571/com.example.administrator.activity_05 I/System.out©s secondActivity ---> onStop
+04-18 11:09:59.998      571-571/com.example.administrator.activity_05 I/System.out©s secondActivity ---> onDestroy
+
+
